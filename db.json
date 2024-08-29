@@ -1,0 +1,15 @@
+{
+    "users": [
+      { "id": 1, "nom": "Doe", "prenom": "John", "age": 30 }
+    ],
+    "categories": [
+      { "id": 1, "libelle": "Electronics" }
+    ],
+    "brands": [
+      { "id": 1, "libelle": "Sony" }
+    ],
+    "products": [
+      { "id": 1, "libelle": "TV", "quantité": 10, "catégorie": 1, "marque": 1 }
+    ]
+  }
+  

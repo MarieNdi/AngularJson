@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>Gestion des Catégories</h2>
+  
+    <div class="mb-3">
+      <input type="text" [(ngModel)]="newCategory.libelle" placeholder="Libelle" class="form-control" />
+      <button (click)="addCategory()" class="btn btn-primary mt-2">Ajouter</button>
+    </div>
+  
+    <ul class="list-group">
+      <li *ngFor="let category of categories" class="list-group-item">
+        {{ category.libelle }}
+        <button (click)="deleteCategory(category.id)" class="btn btn-danger btn-sm float-end">Supprimer</button>
+      </li>
+    </ul>
+  </div>
+  
